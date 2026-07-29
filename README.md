@@ -32,6 +32,7 @@ Table of contents
   5. [Keyboard layout](#5-keyboard-layout)
   6. [Extra customization](#bonus-spice-it-up)
 - [Installation](#installation)
+- [Troubleshooting](#troubleshooting)
 - [Why “Arsenik”?](#why-arsenik)
 - [Join the community](#join-the-community)
 
@@ -85,7 +86,7 @@ and <kbd>Navigation</kbd> layers further reduces hand and finger movements.
 When you are familiar with mod-taps, it’s time to enable them on the home row
 with the “HRM” variants:
 
-- <kbd>FDS</kbd> and <kbd>JKL</kbd> become <kbd>Ctrl</kbd>, <kbd>Alt</kbd>,
+- <kbd>FDS</kbd> and <kbd>JKL</kbd> become <kbd>Alt</kbd>, <kbd>Ctrl</kbd>,
 <kbd>Super</kbd> when held long enough;
 - the left thumb key can now emit a <kbd>Shift</kbd> rather than <kbd>Alt</kbd>
 when held.
@@ -244,6 +245,13 @@ If you have a programmable keyboard you might want to take a look at the
 Other desktop implementations (KMonad, keyd, Karabiner…) would be nice to see as
 well.
 
+Troubleshooting
+--------------------------------------------------------------------------------
+
+Some combinations of three keys might not work on a standard keyboard, due to
+[ghosting], which is a hardware problem that Kanata cannot fix. If you have this
+problem, you have to release a key to be able to press another one.
+
 Why “Arsenik”?
 --------------------------------------------------------------------------------
 
@@ -295,6 +303,7 @@ to enhance the Arsenik experience!
 [Kanata]: https://github.com/jtroo/kanata
 [Miryoku]: https://github.com/manna-harbour/miryoku
 [touch typing]: https://en.wikipedia.org/wiki/Touch_typing
+[ghosting]: https://en.wikipedia.org/wiki/Key_rollover#Ghosting
 [Lafayette]: https://qwerty-lafayette.org/42
 [Ergo-L]: https://ergol.org
 [Kanata keys]: https://github.com/jtroo/kanata/blob/main/parser/src/keys/mod.rs#L159
